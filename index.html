@@ -4,51 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Blog">
+    <meta name="description" content="Blog de Sustentabilidade">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Viviane Scarlatti">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
-    <title>Document</title>
 
-    <style>
-        /* Alteração de estilo do menu */
-        ul{
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin: 0%;
-        }
+    <title>Blog de Sustentabilidade</title>
 
-        ul li{
-            display: inline; /* Tornar a lista horizontal */
-            padding: 3% /* Espaçamento */
-        }
-
-        a{
-            text-decoration: none; /* Tira o sublinhado padrão do link */
-            color: black;
-        }
-
-        .center{
-            display: flex;
-            justify-content: center;
-        }
-
-    </style>
 </head>
 <body>
     <!--Menu-->
-        <ul>
+        <ul class="ul">
+            <img src="assets/image/logo.png" alt="Logo" style="float:left;width:80px;height:70px;">
             <li><a href="https://google.com.br" target="_blank">Home</a></li>
             <li>Sobre</li>
-            <li>Contato</li>
+            <li>Cadastro</li> <!--Formulário de cadastro-->
         </ul>
     <!--Conteúdo-->
-    <h1 class="center">Node.js</h1>
-    <figure class="center">
-        <img src="js.png" alt="Imagem do logo do Node.Js" title="Node.js" width="250" height="100">
-    </figure>
+
+    <h1>Notícias</h1>
     
+    <h2>IoT – Internet of Things para a sustentabilidade</h2>
+    <p> A a IoT pode ser uma importante ferramenta para a sustentabilidade. 
+    Uma das cidades que vem utilizando com sucesso a IoT para combate à poluição do ar – o uso dessa tecnologia permite a construção de uma base de dados sobre poluição muito mais eficaz e condizente com a realidade que os métodos tradicionais – é cidade de Uppsala, na Suécia, através do projeto GreenIoT. Esse projeto consiste na criação de solução integrada onde um sistema de sensores ambientais efetuam o monitoramento da poluição do ar em tempo real por meio de sensores sem fio em veículos de transporte público. Esses dados são então repassados para órgãos governamentais que fazem uso dos mesmos para auxiliar a condução de políticas públicas como o o planejamento da cidade através do redirecionamento do tráfego de áreas altamente poluídas para outras.
+    A gestão de resíduos é outro importante tema relacionado à preservação do meio ambiente, à promoção da saúde da população e gerenciamento de ações para a promoção da sustentabilidade. E por isso empresas e cidades devem possuir um bom planejamento sobre o descarte de seus resíduos, e nesse ponto a IoT também se mostra como grande aliada como já observado em países europeus. Lá as latas de lixo das ruas são conectadas por meio de IoT às empresas de gerenciamento de resíduos e emitem um alerta quando estão cheias, dessa forma, os coletores (correspondente aos garis aqui no Brasil) são enviados para a coleta de resíduos apenas quando necessário, evitando viagens desnecessárias, reduzindo o consumo de combustível e diminuindo o congestionamento das ruas e a emissão de CO2. A IoT também pode ser utilizada para indicar aos consumidores os locais onde se localizam as latas de lixo que recolhem resíduos para a reciclagem, assim como identificar melhor quais materiais podem ser reciclados.
+    Referência: http://autossustentavel.com/2019/08/iot-internet-of-things-um-caminho-para-a-sustentabilidade.html
+    </p>
+
+    <figure class="image">
+        <img src="assets/image/sustentabilidade.jfif" alt="Imagem de sustentabilidade" title="sustentabilidade" width="280" height="210" style="float:right; ">
+        <img src="assets/image/Smart-Waste.png" alt="Smart-Waste" title="Smart-Waste" width="390" height="210" style="float: right;">
+    </figure>
+
+    <h2>Cataki: o aplicativo que conecta catadores e gera renda</h2>
+    <p>Cataki é ma plataforma digital desenvolvida para aproximar pessoas com consciência ambiental e catadores de materiais recicláveis. Disponível de forma gratuita para celulares iPhone (iOS) e Android, a ferramenta mapeia as áreas de atuação e oferece o contato dos catadores mais próximos da localização atual do usuário. Pelo app, é possível consultar biografia, foto de perfil, telefone de contato e o tipo de material que o profissional recolhe.
+    O serviço apresenta pessoas que recolhem qualquer tipo de material, como lixo, alumínio, metal, baterias, produtos eletrônicos, móveis, entulhos e outros. Para acessar a plataforma pelo celular, não é necessário um cadastro, apenas os profissionais catadores precisam criar uma conta e expor seus dados de contato. A comunicação com os catadores não é realizada dentro do sistema do Cataki. Para chamar um profissional para recolher materiais em sua casa ou em locais próximos, abra um perfil de catador para visualizar o contato telefônico. O Cataki foi desenvolvido pelo Pimp my Carroça, movimento que promove a visibilidade dos catadores, realiza ações criativas com o uso do grafite para melhorar a autoestima desses trabalhadores.
+    Foram diversos prêmios e reconhecimentos recebidos nestes anos, como o ‘Premio del Água y Saneamiento para America Latina y Caribe’, na categoria de resíduos sólidos, em 2015 e o ‘Netexplo 2018’ de Inovação Digital da UNESCO, em 2018.
+    Referência: http://autossustentavel.com/2019/08/cataki-catadores-reciclagem.html
+    </p>
 
 </body>
 </html>

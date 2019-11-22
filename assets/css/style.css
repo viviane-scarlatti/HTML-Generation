@@ -1,0 +1,22 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #A9F5BC;
+}
+
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #A9F5BC;
+    color: black;
+    text-align: center;
+}
