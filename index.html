@@ -7,43 +7,160 @@
     <meta name="description" content="Blog de Sustentabilidade">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Viviane Scarlatti">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
 
     <title>Blog de Sustentabilidade</title>
 
 </head>
+
 <body>
-    <!--Menu-->
-        <ul class="ul">
-            <img src="assets/image/logo.png" alt="Logo" style="float:left;width:80px;height:70px;">
-            <li><a href="https://google.com.br" target="_blank">Home</a></li>
-            <li>Sobre</li>
-            <li>Cadastro</li> <!--Formulário de cadastro-->
-        </ul>
-    <!--Conteúdo-->
+        <!-- Menu de Navegação-->
+        
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e6fff2;">
+                <a class="navbar-brand" href="#">
+                 <img src="assets/image/logo.png" width="40" height="25" class="d-inline-block align-top mr-3" alt="">Tecnologia e Meio Ambiente</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse ml-5 " id="conteudoNavbarSuportado">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active mr-2">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    </li>
+                    <li class="nav-item mr-2">
+                      <a class="nav-link" href="assets/html/Formulario.html">Cadastro</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+                  </form>
+                </div>
+              </nav>
 
-    <h1>Notícias</h1>
-    
-    <h2>IoT – Internet of Things para a sustentabilidade</h2>
-    <p> A a IoT pode ser uma importante ferramenta para a sustentabilidade. 
-    Uma das cidades que vem utilizando com sucesso a IoT para combate à poluição do ar – o uso dessa tecnologia permite a construção de uma base de dados sobre poluição muito mais eficaz e condizente com a realidade que os métodos tradicionais – é cidade de Uppsala, na Suécia, através do projeto GreenIoT. Esse projeto consiste na criação de solução integrada onde um sistema de sensores ambientais efetuam o monitoramento da poluição do ar em tempo real por meio de sensores sem fio em veículos de transporte público. Esses dados são então repassados para órgãos governamentais que fazem uso dos mesmos para auxiliar a condução de políticas públicas como o o planejamento da cidade através do redirecionamento do tráfego de áreas altamente poluídas para outras.
-    A gestão de resíduos é outro importante tema relacionado à preservação do meio ambiente, à promoção da saúde da população e gerenciamento de ações para a promoção da sustentabilidade. E por isso empresas e cidades devem possuir um bom planejamento sobre o descarte de seus resíduos, e nesse ponto a IoT também se mostra como grande aliada como já observado em países europeus. Lá as latas de lixo das ruas são conectadas por meio de IoT às empresas de gerenciamento de resíduos e emitem um alerta quando estão cheias, dessa forma, os coletores (correspondente aos garis aqui no Brasil) são enviados para a coleta de resíduos apenas quando necessário, evitando viagens desnecessárias, reduzindo o consumo de combustível e diminuindo o congestionamento das ruas e a emissão de CO2. A IoT também pode ser utilizada para indicar aos consumidores os locais onde se localizam as latas de lixo que recolhem resíduos para a reciclagem, assim como identificar melhor quais materiais podem ser reciclados.
-    Referência: http://autossustentavel.com/2019/08/iot-internet-of-things-um-caminho-para-a-sustentabilidade.html
-    </p>
+    <!--Carousel-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/image/sustentabilidade.jfif" alt="Primeiro Slide" width="580" height="400">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/image/Smart-Waste.png" alt="Segundo Slide" width="580" height="400">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
 
-    <figure class="image">
-        <img src="assets/image/sustentabilidade.jfif" alt="Imagem de sustentabilidade" title="sustentabilidade" width="280" height="210" style="float:right; ">
-        <img src="assets/image/Smart-Waste.png" alt="Smart-Waste" title="Smart-Waste" width="390" height="210" style="float: right;">
-    </figure>
+          <section> 
+          <!-- Cards -->
+          <div class="cartaoalinhado">
+          <div class="card" style="width: 600px;">
+              <div class="card-body">
+                <h5 class="card-title">IoT – Internet of Things para a sustentabilidade</h5>
+                <p class="card-text">A a IoT pode ser uma importante ferramenta para a sustentabilidade. 
+                    Uma das cidades que vem utilizando com sucesso a IoT para combate à poluição do ar – o uso dessa tecnologia permite a construção de uma base de dados sobre poluição muito mais eficaz e condizente com a realidade que os métodos tradicionais – é cidade de Uppsala, na Suécia, através do projeto GreenIoT. Esse projeto consiste na criação de solução integrada onde um sistema de sensores ambientais efetuam o monitoramento da poluição do ar em tempo real por meio de sensores sem fio em veículos de transporte público. Esses dados são então repassados para órgãos governamentais que fazem uso dos mesmos para auxiliar a condução de políticas públicas como o o planejamento da cidade através do redirecionamento do tráfego de áreas altamente poluídas para outras.
+                    A gestão de resíduos é outro importante tema relacionado à preservação do meio ambiente, à promoção da saúde da população e gerenciamento de ações para a promoção da sustentabilidade. E por isso empresas e cidades devem possuir um bom planejamento sobre o descarte de seus resíduos, e nesse ponto a IoT também se mostra como grande aliada como já observado em países europeus. Lá as latas de lixo das ruas são conectadas por meio de IoT às empresas de gerenciamento de resíduos e emitem um alerta quando estão cheias, dessa forma, os coletores (correspondente aos garis aqui no Brasil) são enviados para a coleta de resíduos apenas quando necessário, evitando viagens desnecessárias, reduzindo o consumo de combustível e diminuindo o congestionamento das ruas e a emissão de CO2. A IoT também pode ser utilizada para indicar aos consumidores os locais onde se localizam as latas de lixo que recolhem resíduos para a reciclagem, assim como identificar melhor quais materiais podem ser reciclados.
+                    Referência: http://autossustentavel.com/2019/08/iot-internet-of-things-um-caminho-para-a-sustentabilidade.html</p>
+                <a href="#" class="btn btn-dark">Visitar</a>
+              </div>
+            </div>
 
-    <h2>Cataki: o aplicativo que conecta catadores e gera renda</h2>
-    <p>Cataki é ma plataforma digital desenvolvida para aproximar pessoas com consciência ambiental e catadores de materiais recicláveis. Disponível de forma gratuita para celulares iPhone (iOS) e Android, a ferramenta mapeia as áreas de atuação e oferece o contato dos catadores mais próximos da localização atual do usuário. Pelo app, é possível consultar biografia, foto de perfil, telefone de contato e o tipo de material que o profissional recolhe.
-    O serviço apresenta pessoas que recolhem qualquer tipo de material, como lixo, alumínio, metal, baterias, produtos eletrônicos, móveis, entulhos e outros. Para acessar a plataforma pelo celular, não é necessário um cadastro, apenas os profissionais catadores precisam criar uma conta e expor seus dados de contato. A comunicação com os catadores não é realizada dentro do sistema do Cataki. Para chamar um profissional para recolher materiais em sua casa ou em locais próximos, abra um perfil de catador para visualizar o contato telefônico. O Cataki foi desenvolvido pelo Pimp my Carroça, movimento que promove a visibilidade dos catadores, realiza ações criativas com o uso do grafite para melhorar a autoestima desses trabalhadores.
-    Foram diversos prêmios e reconhecimentos recebidos nestes anos, como o ‘Premio del Água y Saneamiento para America Latina y Caribe’, na categoria de resíduos sólidos, em 2015 e o ‘Netexplo 2018’ de Inovação Digital da UNESCO, em 2018.
-    Referência: http://autossustentavel.com/2019/08/cataki-catadores-reciclagem.html
-    </p>
+            <div class="card" style="width: 600px;">
+                <div class="card-body">
+                  <h5 class="card-title">Cataki: o aplicativo que conecta catadores e gera renda</h5>
+                  <p class="card-text">Cataki é ma plataforma digital desenvolvida para aproximar pessoas com consciência ambiental e catadores de materiais recicláveis. Disponível de forma gratuita para celulares iPhone (iOS) e Android, a ferramenta mapeia as áreas de atuação e oferece o contato dos catadores mais próximos da localização atual do usuário. Pelo app, é possível consultar biografia, foto de perfil, telefone de contato e o tipo de material que o profissional recolhe.
+                      O serviço apresenta pessoas que recolhem qualquer tipo de material, como lixo, alumínio, metal, baterias, produtos eletrônicos, móveis, entulhos e outros. Para acessar a plataforma pelo celular, não é necessário um cadastro, apenas os profissionais catadores precisam criar uma conta e expor seus dados de contato. A comunicação com os catadores não é realizada dentro do sistema do Cataki. Para chamar um profissional para recolher materiais em sua casa ou em locais próximos, abra um perfil de catador para visualizar o contato telefônico. O Cataki foi desenvolvido pelo Pimp my Carroça, movimento que promove a visibilidade dos catadores, realiza ações criativas com o uso do grafite para melhorar a autoestima desses trabalhadores.
+                      Foram diversos prêmios e reconhecimentos recebidos nestes anos, como o ‘Premio del Água y Saneamiento para America Latina y Caribe’, na categoria de resíduos sólidos, em 2015 e o ‘Netexplo 2018’ de Inovação Digital da UNESCO, em 2018.
+                      Referência: http://autossustentavel.com/2019/08/cataki-catadores-reciclagem.html
+                    
+                    
+                    </p>
+                  <a href="#" class="btn btn-dark">Visitar</a>
+                </div>
+              </div>
+            </div>
+            </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Contato</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Instagram</a>
+            </li>
+            <li>
+              <a href="#!">Facebook</a>
+            </li>
+            <li>
+              <a href="#!">Linkedin</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+        
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="index.html"> Tecnologia e Meio Ambiente </a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
 </html>
